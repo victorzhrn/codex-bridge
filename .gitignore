@@ -1,0 +1,13 @@
+node_modules/
+.scratch/
+*.log
+
+.DS_Store
+.env
+.env.*
+auth.json
+openai-api-auth.json
+.codex/
+.codex-bridge-home/
+*.pem
+*.key

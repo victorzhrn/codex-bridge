@@ -1,0 +1,19 @@
+{
+  "name": "codex-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Narrow MCP tools that hand specific jobs to the Codex CLI: image generation, image editing, code delegation, review, and web fetch.",
+  "bin": {
+    "codex-bridge": "./server.mjs"
+  },
+  "scripts": {
+    "probe": "node scripts/probe.mjs",
+    "api": "node http-server.mjs",
+    "api:tools": "bash scripts/start-openai-api-tools.sh"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  }
+}
